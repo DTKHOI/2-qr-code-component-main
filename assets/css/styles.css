@@ -1,0 +1,106 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+.container {
+    height: 100vh;
+    padding: 0 15px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.qr-card {
+    max-width: 320px;
+    padding: var(--spacing-200, 16px) var(--spacing-200, 16px) var(--spacing-500, 40px) var(--spacing-200, 16px);
+    border-radius: 20px;
+
+    background: var(--color-white, #fff);
+    -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+.qr-card__bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 64px;
+
+    background: #2c7dfa;
+
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background: var(--color-blue-500, #3685ff);
+    z-index: -1;
+}
+
+.circle--top {
+    bottom: 124.5px;
+    right: 131.5px;
+}
+
+.circle--bottom {
+    bottom: -186.5px;
+    left: 131.5px;
+}
+
+.qr-card__content {
+    padding: 0 var(--spacing-200);
+    text-align: center;
+}
+
+.qr-card__cta-text {
+    margin-top: var(--spacing-200);
+}
+
+.attribution {
+    margin-top: -50px;
+    padding: 0 16px;
+
+    text-align: center;
+
+    a {
+        color: var(--color-white);
+    }
+}

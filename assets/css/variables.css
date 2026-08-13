@@ -1,0 +1,13 @@
+html {
+    --color-white: #fff;
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+
+    ----font-size-text-preset-1: 22px;
+    --font-size-text-preset-2: 15px;
+
+    --spacing-500: 40px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+}
